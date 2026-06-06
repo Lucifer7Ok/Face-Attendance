@@ -1,9 +1,0 @@
-project-includes = [
-    "**/*.py*",
-    "**/*.ipynb",
-]
-
-project-excludes = [
-    "**/.venv/**",
-    "**/venv/**",
-]
