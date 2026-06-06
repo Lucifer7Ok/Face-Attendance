@@ -6,6 +6,9 @@ import face_recognition
 from datetime import datetime
 import cvzone
 from supabase import create_client, Client
+from dotenv import load_dotenv
+
+load_dotenv()
 
 SUPABASE_URL: str = os.getenv("SUPABASE_URL")
 SUPABASE_SERVICE_KEY: str = os.getenv("SUPABASE_SERVICE_KEY")
